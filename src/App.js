@@ -12,14 +12,14 @@ import {
 class App extends Component {
   render() {
     return (
-      <React.Fragment className="App">
+      <React.Fragment>
         <header>
           <NavBar/>
+          <h1 className="welcome-text">WELCOME</h1>
         </header>
-        <body>
+        <body className="background">
           <HashRouter>
             <Switch>
-                <h1>Hi</h1>
             </Switch>
           </HashRouter>
         </body>

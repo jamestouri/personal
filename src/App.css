@@ -19,6 +19,22 @@
   color: white;
 }
 
+.welcome-text {
+  font-size: 180px;
+  font-family: monospace;
+  color:#1e3d37;
+  position: absolute;
+  top: 110px;
+  left: 355px;
+  z-index: 2;
+}
+
+.background {
+  background-color: #2aba8a;
+  width: 100%;
+  height: 90vh;
+}
+
 .App-link {
   color: #61dafb;
 }

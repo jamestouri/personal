@@ -9,7 +9,12 @@ const NavBar = props => {
       <ul className="links-top">
         <li>ABOUT</li>
         <li>PROJECTS</li>
+        <li></li>
+        <li>GITHUB</li>
+        <li>RESUME</li>
       </ul>
+      <div className="bottom-line">
+      </div>
     </div>
   )
 }
