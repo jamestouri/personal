@@ -1,4 +1,16 @@
 .projects {
   display: flex;
   justify-content: center;
+  padding-top: 5%;
+  font-family: monospace;
+}
+
+.projects div {
+  padding: 50px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.projects h1 {
+  font-size: 36px;
 }
