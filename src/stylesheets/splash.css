@@ -1,8 +1,32 @@
 .astronaut-image {
   background-image: url("http://www.stickpng.com/assets/images/58511bb06a5ae41a83ddeeae.png");
-  width: 100%;
+  width: 75%;
   height: 100%;
   background-repeat: no-repeat;
-  margin-left: 25%;
+  margin-left: 22%;
   z-index: 2;
+}
+
+.intro {
+  width: 200px;
+  text-align: right;
+
+}
+
+.side-piece {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  color: white;
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.link-to-about {
+  margin-left: 15px;
+  color: white;
+  border: 1px solid transparent;
+  text-align: center;
+
 }

@@ -7,7 +7,7 @@ const NavBar = props => {
   return (
     <div className="App">
       <ul className="links-top">
-        <li>ABOUT</li>
+        <li><Link to="/about">ABOUT</Link></li>
         <li>PROJECTS</li>
         <li></li>
         <li>GITHUB</li>

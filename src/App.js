@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SplashPage from './components/splash';
+import AboutPage from './components/about';
 import './reset.css';
 import './App.css';
 import NavBar from './components/nav_bar';
@@ -13,19 +14,19 @@ import {
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
-        <header>
-          <NavBar/>
-          <h1 className="welcome-text">WELCOME</h1>
-        </header>
-        <body className="background">
-          <HashRouter>
-            <Switch>
-              <Route exact path='/' component={SplashPage}/>
-            </Switch>
-          </HashRouter>
-        </body>
-      </React.Fragment>
+        <HashRouter>
+          <React.Fragment>
+          <header>
+            <NavBar/>
+          </header>
+          <body className="background">
+              <Switch>
+                <Route exact path='/' component={SplashPage}/>
+                <Route exact path='/about' component={AboutPage}/>
+              </Switch>
+          </body>
+        </React.Fragment>
+      </HashRouter>
     );
   }
 }
