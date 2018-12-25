@@ -1,16 +1,60 @@
 .projects {
   display: flex;
   justify-content: center;
-  padding-top: 5%;
+  padding-top: 10%;
   font-family: monospace;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration: none;
 }
+
 
 .projects div {
   padding: 50px;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  height: 330px;
+  background-repeat: no-repeat;
+
 }
+
+.projects a {
+  margin-top: 10%;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
 
 .projects h1 {
   font-size: 36px;
+}
+.projects p {
+  margin-top: 3%;
+  font-size: 16px;
+  margin-bottom: 10%;
+}
+.porcelain {
+  background-image: url('../images/porcelain.jpg');
+  background-size: cover;
+  text-shadow: 2px 2px white;
+}
+
+.togather {
+  background-image: url('../images/togather.jpg');
+  background-size: cover;
+  margin-left: 5%;
+  color: white;
+  text-shadow: 1px 1px black;
+
+}
+
+
+.pyromatics {
+  background-image: url('../images/map.jpg');
+  background-size: cover;
+  margin-left: 5%;
+  text-shadow: 2px 2px white;
+
 }

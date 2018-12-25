@@ -7,11 +7,14 @@ const NavBar = () => {
   return (
     <div className="App">
       <ul className="links-top">
-        <li><Link to="/about">ABOUT</Link></li>
-        <li>PROJECTS</li>
-        <li></li>
-        <li>GITHUB</li>
-        <li>RESUME</li>
+        <li><Link className="text"to="/about">ABOUT</Link></li>
+        <li><Link className="text"to="/projects">PROJECTS</Link></li>
+        <li><Link className="text bold" to="/">HOME</Link></li>
+        <li><a href="https://github.com/jamestouri"className="text">GITHUB</a></li>
+        <li><a href="https://linkedin.com/in/jamestouri" className="text">
+  		      LINKEDIN
+  			</a></li>
+
       </ul>
       <div className="bottom-line">
       </div>
