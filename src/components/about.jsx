@@ -1,10 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import '../stylesheets/about.css';
+import '../App.css';
 
 const AboutPage = () => {
   return (
     <div className="about-me">
+      <h1 className="welcome-text">ABOUT</h1>
       <p className="about-paragraph">Hi, my name is James, and I'm currently a software engineer. I have a big interest in the Space industry and Virtual Reality.
         I work on various stacks that include using React, Javascript, Node.js, Rails and Relational/Non-Relational Databases.
         <br/>I became a software engineer mainly because I want to get involved in the space/robotics industry, and the best way to contribute to those companies is to help

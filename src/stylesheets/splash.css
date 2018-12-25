@@ -8,7 +8,7 @@
 }
 
 .intro {
-  width: 200px;
+  width: 175px;
   text-align: right;
 
 }
@@ -19,8 +19,8 @@
   right: 10%;
   color: white;
   font-family: monospace;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .link-to-about {
