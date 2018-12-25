@@ -1,0 +1,8 @@
+.astronaut-image {
+  background-image: url("http://www.stickpng.com/assets/images/58511bb06a5ae41a83ddeeae.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin-left: 25%;
+  z-index: 2;
+}
