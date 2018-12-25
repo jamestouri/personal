@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SplashPage from './components/splash';
 import AboutPage from './components/about';
+import ProjectPage from './components/projects';
 import './reset.css';
 import './App.css';
 import NavBar from './components/nav_bar';
@@ -21,9 +22,10 @@ class App extends Component {
           </header>
           <body className="background">
               <Switch>
-                <Route exact path='/' component={SplashPage}/>
                 <Route exact path='/about' component={AboutPage}/>
-              </Switch>
+                <Route exact path='/projects' component={ProjectPage}/>
+                <Route exact path='/' component={SplashPage}/>
+            </Switch>
           </body>
         </React.Fragment>
       </HashRouter>

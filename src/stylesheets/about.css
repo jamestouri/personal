@@ -1,0 +1,21 @@
+.about-me {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 27%;
+  padding-right: 27%;
+}
+
+.about-paragraph {
+  color: white;
+  font-size: 18px;
+  font-family: monospace;
+  line-height: 2;
+  font-weight: 550;
+}
+
+.email {
+  margin-top: 7%;
+  color: white;
+  font-size: 18px;
+  font-family: monospace;
+}
